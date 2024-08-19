@@ -1,0 +1,9 @@
+-- database: ./good.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+SELECT * from users;
+
+SELECT * from users ORDER BY Location ASC;
+
+INSERT INTO users(name , age , Location , Profession) VALUES('Kabir Reddy', 29, 'Pune', 'Business Analyst')
